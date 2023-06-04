@@ -1,0 +1,7 @@
+CREATE TABLE participants (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nom VARCHAR(50) NOT NULL,
+  prenom VARCHAR(225) NOT NULL,
+  telephone VARCHAR(15) NOT NULL,
+  email VARCHAR(225) NOT NULL
+);
